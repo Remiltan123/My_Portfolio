@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaMobile, FaGlobe, FaDatabase, FaJava  } from "react-icons/fa";
+import {  SiWordpress } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -11,47 +11,43 @@ const Features = () => {
       id="features"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <Title title="Features" des="What I Do" />
+      <Title title="Services" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Custom Web Development"
+          des="I build responsive websites tailored to your business needs using React, Next.js, and other technologies."
+          icon={<FaGlobe />}
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Frontend Development"
+          des="Creating dynamic and interactive user interfaces with technologies like React, TailwindCSS, and Bootstrap."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
+          title="Backend Development"
+          des="Developing robust and scalable server-side solutions with Node.js, Express, and MongoDB."
+          icon={<FaDatabase />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="E-commerce Solutions"
+          des="Designing and building customized e-commerce platforms with secure payment gateway integration."
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
+          title="CMS Development"
+          des="Providing custom WordPress themes, plugins, and headless CMS solutions for seamless content management."
+          icon={<SiWordpress />}
         />
+        
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaGlobe />}
+          title="Java Development"
+          des="Building efficient and scalable software applications using Java Core for various business needs."
+          icon={<FaJava/>}
         />
+        
       </div>
     </section>
   );
-}
+};
 
-export default Features
+export default Features;
