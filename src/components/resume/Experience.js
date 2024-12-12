@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
+import { GrCertificate } from "react-icons/gr";
 
 const Experience = () => {
   return (
@@ -9,55 +10,42 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
+      {/* Professional Experience Section */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Professional Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Freelance Web Developer"
+            subTitle="Self-Employed (2018 - Present)"
+            result="Remote"
+            des="Designed and developed responsive web applications using ReactJS, NextJS, and TailwindCSS. Delivered projects for diverse clients, integrating third-party APIs and ensuring scalability. Gained experience in client communication, project management, and solving real-world technical challenges."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Full Stack Developer"
+            subTitle="MERN Stack Applications (2022 - Present)"
+            result="N/A"
+            des="Built and deployed dynamic web applications with the MERN stack, focusing on creating RESTful APIs, managing authentication, and delivering optimized user experiences. Enhanced my knowledge of backend architecture and full-stack development processes."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Orphage Management System"
+            subTitle="Personal Project (2024)"
+            result="Completed"
+            des="A Management Information System (MIS) designed for Child Protection Authorities to modernize orphanage management and strengthen child protection efforts using digital technology. Learned how to structure complex databases, implement CRUD operations, and apply best practices for secure user authentication."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Pet Store Management System"
+            subTitle="Client Project (2024)"
+            result="Completed"
+            des="Created a responsive platform for users to explore and select dream pets and products, utilizing NextJS and TailwindCSS for seamless user experience. Improved skills in responsive web design, API integration, and UI/UX principles."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Gym Management System"
+            subTitle="Client Project (2024)"
+            result="Completed"
+            des="I developed a Gym Management System for my village gym to streamline operations, including member registration, trainer assignments, membership plans, and payment tracking. Gained practical experience in building scalable web applications and handling user data securely."
           />
         </div>
       </div>
