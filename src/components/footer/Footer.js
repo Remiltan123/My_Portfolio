@@ -13,7 +13,7 @@ const Footer = () => {
               <FaGithub />
             </span>
           </a>
-          <a href="https://www.linkedin.com/in/regi-remiltan-re15" target="blank">
+          <a href="https://www.linkedin.com/in/remiltan15/" target="blank">
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
