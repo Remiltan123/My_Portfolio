@@ -19,7 +19,7 @@ const ContactLeft = () => {
           Thanks for visiting my portfolio! If you have any questions or want to discuss a project, feel free to reach out. I'm open to new opportunities and collaborations. I look forward to hearing from you!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText"><span className='font-bold text-white'>+94775353837</span></span>
+          Phone: <span className="text-lightText"><span className='font-bold text-white'>+94775352837</span></span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText"><span className='font-bold text-white'>regiremiltan2002@gmail.com</span></span>
