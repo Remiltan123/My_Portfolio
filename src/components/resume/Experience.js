@@ -26,7 +26,7 @@ const Experience = () => {
           <ResumeCard
             title="Full Stack Developer"
             subTitle="MERN Stack Applications (2022 - Present)"
-            result="N/A"
+            result="Remote"
             des="Built and deployed dynamic web applications with the MERN stack, focusing on creating RESTful APIs, managing authentication, and delivering optimized user experiences. Enhanced my knowledge of backend architecture and full-stack development processes."
           />
           <ResumeCard
