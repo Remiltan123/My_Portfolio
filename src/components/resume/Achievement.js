@@ -45,6 +45,7 @@ const Achievement = () => {
             subTitle="Udemy (2024)"
             Link={<GrCertificate />}
             url="https://www.udemy.com/certificate/UC-e6f96862-759a-4619-86db-b4e427716386/" 
+            result="Completed"
             des="Completed a comprehensive course on MySQL, covering essential database concepts such as relational database design, querying with SQL, joins, normalization, and optimization techniques for efficient data management and retrieval."
           />
           <ResumeCard
